@@ -22,7 +22,7 @@ class InferlessPythonModel:
         )
 
         # Define sampling parameters for model generation
-        self.sampling_params = SamplingParams(temperature=0.7, top_p=0.95, max_tokens=256)
+        self.sampling_params = SamplingParams(temperature=0.7, top_p=0.95, max_tokens=128)
 
         # Initialize the LLM object
         self.llm = LLM(model=model_dir, quantization="awq", dtype="float16")
