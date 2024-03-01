@@ -1,5 +1,5 @@
-# meditron-7B-GPTQ with vLLM
-meditron-7B-GPTQ is a state of the art Mistral Fine-tune, a continuation of OpenHermes 2 model, which trained on additional code datasets.
+# Meditron-7B-GPTQ with vLLM
+Meditron-7B-GPTQ is a state of the art Mistral Fine-tune, a continuation of OpenHermes 2 model, which trained on additional code datasets.
 vLLM is a fast and easy-to-use library for LLM inference and serving. You can use this template to use vLLM in Inferless.
 ## Deploy meditron-7B-GPTQ using Inferless:
 - Deployment of Llama-2-7B model using [vLLM](https://github.com/vllm-project/vllm).
