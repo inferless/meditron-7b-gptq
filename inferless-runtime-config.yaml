@@ -3,6 +3,5 @@ build:
   system_packages:
     - "libssl-dev"
   python_packages:
-    - "transformers"
-    - "accelerate"
-    - "auto-gptq"
+    - "torch==2.1.2"
+    - "vllm==0.3.2"
