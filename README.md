@@ -3,8 +3,6 @@ Meditron-7B-GPTQ is a state of the art Mistral Fine-tune, a continuation of Open
 vLLM is a fast and easy-to-use library for LLM inference and serving. You can use this template to use vLLM in Inferless.
 
 ## TL;DR:
-- Deployment of Llama-2-7B model using [vLLM](https://github.com/vllm-project/vllm).
-- By using the vLLM, you can expect an average latency of 1.05 sec.
 - Dependencies defined in `inferless-runtime-config.yaml`.
 - GitHub/GitLab template creation with `app.py`, `inferless-runtime-config.yaml` and `inferless.yaml`.
 - Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
